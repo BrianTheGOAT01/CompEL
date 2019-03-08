@@ -1,0 +1,63 @@
+.custom-file-upload-hidden {
+  display: none;
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+}
+
+.custom-file-upload {
+  display: block;
+  width: auto;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.custom-file-upload label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.file-upload-wrapper-video {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.file-upload-input-video {
+  margin-left: 15px;
+  width: 300px;
+  color: #fff;
+  font-size: 16px;
+  padding: 11px 17px;
+  border: none;
+  background-color: #3498db;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  float: left;
+  /* IE 9 Fix */
+}
+.file-upload-input-video:hover, .file-upload-input-video:focus {
+  background-color: #3498db;
+  outline: none;
+}
+
+.file-upload-button-video {
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 11px 20px;
+  border: none;
+  margin-left: -1px;
+  background-color: #2980b9;
+  float: left;
+  /* IE 9 Fix */
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.file-upload-button-video:hover {
+  background-color: #2980b9;
+}
